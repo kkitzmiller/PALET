@@ -2,17 +2,16 @@
 PALET is a software package used to solve a system of linear equations exactly using the PALET algorithm.
 
 Files and folders in this distribution:
-	README.md	     This file
-	PALET.cpp	     C++ file containing the PALET algorithm
-	makefile	     The makefile which compiles PALET.cpp
-	Matrixfiles	   Folder of random/magic matrices used to test PALET
 
-Dependencies:
-	GMP
-	MPFR
-	GIVARO
-	OPENBLAS
-	FFLAS-FFPACK
+[README.md](/README.md)	     This file
+
+[PALET.cpp](/PALET.cpp)	     C++ file containing the PALET algorithm
+
+[makefile](/makefile)	     The makefile which compiles PALET.cpp
+
+[Matrixfiles](Matrixfiles)	     Folder of random/magic matrices used to test PALET
+
+Dependencies: [GMP](https://github.com/yuhangwang/GMP), [MPFR](https://github.com/alisw/MPFR), [givaro](https://github.com/linbox-team/givaro), [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS), [fflas-ffpack](https://github.com/linbox-team/fflas-ffpack)
 
 To compile PALET, please update the makefile with the correct paths to its dependencies. Then type “make” in this folder. This will create the PALET executable.
 
