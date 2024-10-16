@@ -11,7 +11,7 @@ Files and folders in this distribution:
 
 Dependencies:
 
-    GMP, MPFR, givaro, OpenBLAS, fflas-ffpack
+    GMP 6.2.1, MPFR 4.1.0, givaro 4.2.0, OpenBLAS 0.3.21, fflas-ffpack 2.5.0
 
 Usage:
 
